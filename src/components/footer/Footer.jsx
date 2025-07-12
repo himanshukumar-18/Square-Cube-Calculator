@@ -12,6 +12,10 @@ const Footer = () => {
       title: "Cube",
       slug: "/cube",
     },
+    {
+      title: "Compound interest",
+      slug: "/compound",
+    },
   ];
 
   return (

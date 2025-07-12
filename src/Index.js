@@ -9,6 +9,9 @@ import Button from "./components/Button"
 import Input from "./components/Input"
 import ScrollCube from "./components/ScrollCube"
 import CubeFunction from "./components/Cube"
+import CompoundFun from "./components/Compound"
+import CompoundPage from "./pages/Compound"
+import ScrollCompound from "./components/ScrollCompound"
 
 export {
     Nav,
@@ -21,5 +24,8 @@ export {
     Button,
     Input,
     ScrollCube,
-    CubeFunction
+    CubeFunction,
+    CompoundFun,
+    CompoundPage,
+    ScrollCompound
 }

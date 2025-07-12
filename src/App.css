@@ -97,6 +97,15 @@ body {
     font-size: 4rem;
   }
 
+  .com {
+    flex-direction: column;
+  }
+
+  .c-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
 
 }
 

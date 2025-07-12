@@ -19,6 +19,10 @@ const Nav = () => {
       title: "Cube",
       slug: "/cube",
     },
+    {
+      title: "Compound interest",
+      slug: "/compound",
+    },
   ];
 
   return (
@@ -27,16 +31,18 @@ const Nav = () => {
         className={`nav-container min-w-full min-h-8vh border-b-1 border-[#ffffff1f]`}
       >
         <nav className={`nav-wrapper w-full px-[20%] py-7 flex gap-5 relative`}>
-          <div
-            className={`logo-wrapper flex items-center outline-1 w-fit px-4 py-2 rounded-[100px] outline-[#ffffff1f]`}
-          >
-            <img src={Logo} alt="logo" className={`w-[50px]`} />
-            <div>
-              <h1 className={`logo-heading ml-3 font-[700] text-[18px] text-[#ffffff]`}>
-                SqrCube
-              </h1>
+          <Link to={"/"}>
+            <div
+              className={`logo-wrapper flex items-center outline-1 w-fit px-4 py-2 rounded-[100px] outline-[#ffffff1f]`}
+            >
+              <img src={Logo} alt="logo" className={`w-[50px]`} />
+              <div>
+                <h1 className={`logo-heading ml-3 font-[700] text-[18px] text-[#ffffff]`}>
+                  Maths App.in
+                </h1>
+              </div>
             </div>
-          </div>
+          </Link>
 
           <div
             className={`nav-links-wrapper outline-1 w-fit px-10 py-2 rounded-[100px] outline-[#ffffff1f] flex items-center ${open ? "open" : ""}`}
